@@ -3,10 +3,11 @@ sudo: false
 install: true
 addons:
   sonarqube:
-    organization: "myOrganization"
+    organization: "Adelina"
     branches:
       - master
       - develop
+      - msg
 notifications:
   email: false
   on_success: never
